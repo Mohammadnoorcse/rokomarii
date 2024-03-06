@@ -1,0 +1,150 @@
+.header{
+    height: 8.5vmax;
+    /* border: 1px saddlebrown solid; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+/* ..............SubNabar start......................... */
+.subnavbar{
+    height: 3.5vmax;
+    border-bottom: 1px dotted rgb(177, 137, 109);
+   
+
+}
+.subnavbar-content{
+    width: 76%;
+    height: 100%;
+}
+.subnavbar-content>image{
+    width: 100%;
+}
+/* ..............SubNabar end........................... */
+
+/* ...............Navbar Start............................ */
+.navbar{
+    height: 5vmax;
+    /* border: 1px solid saddlebrown; */
+   
+}
+.navbar-content{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}
+.navbar-content>div:nth-child(1)>img{
+    width: 5vmax;
+}
+.middle-navbar{
+    display: flex;
+}
+.middle-navbar>select{
+    width: 3vmax;
+    height: 2.5vmax;
+    outline: none;
+    border-bottom:4px solid #FF9900;
+}
+
+.middle-navbar>input{
+    width: 25vmax !important;
+    height: 2.5vmax !important;
+    outline: none;
+    border-bottom:4px solid #FF9900;
+}
+.middle-navbar>.middle-navbar-img{
+    width: 2vmax;
+    height: 2.5vmax;
+    background-color: #0397D3;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.middle-navbar>.middle-navbar-img>img{
+width: 1.2vmax;
+
+}
+.middle-navbar>input:focus{
+    border:1px solid #0397D3;
+}
+
+.middle-navbar>input:hover a{
+    border: 1px solid red !important;
+}
+.middle-navbar>input::placeholder{
+    letter-spacing: 2px;
+    font-size: 0.8vmax;
+    padding-left: 0.5vmax;
+}
+
+.navbar-content-icon{
+    display: flex;
+    gap: 1vmax;
+}
+
+.navbar-content-icon>div:nth-child(1)>img{
+    width: 2vmax;
+}
+.navbar-content-icon>div:nth-child(2)>a{
+    padding: 0.5vmax 1vmax;
+    border:darkgrey 1px solid;
+    text-decoration: none;
+    border-radius: 2px;
+    color: darkgray;
+}
+.navbar-content-icon>div:nth-child(2)>a:hover{
+    background-color: #33C24D;
+    color: white;
+}
+/* ...............Navbar End.............................. */
+
+
+/* ...............subnav start.............................. */
+.subnav{
+    height: 3vmax;
+     border-bottom: 1px solid #0397D3 ;
+    
+}
+.subnav-content{
+    width: 42vmax;
+    
+}
+
+
+/* ...............subnav end.............................. */
+
+
+/* ................subnav-item start....................... */
+.subnav-item{
+    height: 2vmax;
+    /* border:1px saddlebrown solid; */
+    
+}
+.subnav-item-content{
+position: relative;
+}
+.dropdwon>button{
+    border: none;
+    background-color: white !important;
+    cursor: pointer;
+    
+}
+.dropdwon-content{
+    display: none;
+    height: 15vmax;
+    /* border: 1px solid red; */
+    position: absolute;
+    padding: 0vmax 1vmax;
+    /* left: 0; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dropdwon-content>div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vmax;
+}
+.dropdwon:hover .dropdwon-content{
+    display: flex;
+}
+/* ................subnav-item End.......................... */

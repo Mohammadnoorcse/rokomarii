@@ -1,0 +1,71 @@
+.book{
+    height: 100vmax;
+}
+.book-content{
+    height: 100%;
+    /* border: 1px solid red; */
+    padding-top: 4vmax;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmax;
+}
+.bookcard{
+    width: 10vmax;
+    height: 14vmax;
+    /* border: 1px solid red; */
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+/* .bookcard::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 10vmax;
+    height: 14vmax;
+    background-color:#FFFFFF;
+    opacity: 0.6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+} */
+
+.bookcard>a>.cart{
+    position: absolute;
+    top: 5vmax;
+    left: 1.5vmax;
+    width: 7vmax;
+    height: 2vmax;
+    background-color: red;
+    text-align: center;
+    opacity: 1;
+    z-index: 100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.cart>span{
+
+    color: white;
+    
+}
+
+.bookcard:hover::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 10vmax;
+    height: 14vmax;
+    background-color:#FFFFFF;
+    opacity: 0.6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+.bookcard:hover .cart{
+    display: flex;
+}
+

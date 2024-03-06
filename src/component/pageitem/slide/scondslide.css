@@ -1,0 +1,19 @@
+.scondslide{
+    height: 5vmax;
+    /* border: 1px saddlebrown solid; */
+    
+}
+.seconslide-content{
+    display: flex !important;
+}
+.i{
+    width: 90%;
+    height: 100%;
+}
+.a{
+padding: 1vmax 3vmax !important;
+border: 1px solid #0397D3;
+background-color: #E3F3FA;
+border-radius: 4px;
+}
+
