@@ -3,11 +3,13 @@
     
 }
 .bookdetail-content{
+    width: 60%;
     height: 100%;
     border: 1px saddlebrown solid;
     padding-top: 3vmax;
     display: grid;
-    grid-template-columns: 30% 40% 20%;
+    grid-template-columns: 20% 60% 20%;
+    gap: 1rem;
     padding-left: 2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -41,4 +43,18 @@
 .bookdetail-content-2-1{
     height: 5rem;
     background-color: #FFE9D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.bookdetail-content-2-1>div>img{
+    width: 8rem;
+}
+.bookdetail-content-2-1>div:nth-child(2){
+    display: flex;
+    gap: 1rem;
+}
+.bookdetail-content-2-1>div:nth-child(2)>span{
+    font-size: 1.3rem;
 }
